@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="feature.webclient.HangmanWebclientIT" time="3.48" tests="8" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="feature.webclient.HangmanWebclientIT" time="3.683" tests="8" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib"/>
     <property name="java.vm.version" value="25.91-b14"/>
     <property name="gopherProxySet" value="false"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="/Users/naelin/Documents/School/FA16/SoftwareEngineering/hangman-webapp"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/naelin/Documents/School/FA16/SoftwareEngineering/cst438-hangman-webapp/hangman-webapp"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="path.separator" value=":"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value="unknown"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="/Users/naelin/Documents/School/FA16/SoftwareEngineering/hangman-webapp"/>
+    <property name="user.dir" value="/Users/naelin/Documents/School/FA16/SoftwareEngineering/cst438-hangman-webapp/hangman-webapp"/>
     <property name="java.runtime.version" value="1.8.0_91-b14"/>
     <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/endorsed"/>
@@ -63,10 +63,10 @@
   </properties>
   <testcase name="Given I am on the hangman page" classname="Scenario: I guess a letter" time="0"/>
   <testcase name="When I enter &quot;c&quot;" classname="Scenario: I guess a letter" time="0"/>
-  <testcase name="Then I see the output: &quot;c..&quot;" classname="Scenario: I guess a letter" time="0.001"/>
-  <testcase name="Scenario: I guess a letter" classname="Scenario: I guess a letter" time="0.07"/>
+  <testcase name="Then I see the output: &quot;c..&quot;" classname="Scenario: I guess a letter" time="0"/>
+  <testcase name="Scenario: I guess a letter" classname="Scenario: I guess a letter" time="0.073"/>
   <testcase name="Given I am on the hangman page" classname="Scenario: Nothing happens with empty letter input" time="0"/>
   <testcase name="When I enter &quot;&quot;" classname="Scenario: Nothing happens with empty letter input" time="0"/>
   <testcase name="Then I see nothing happen" classname="Scenario: Nothing happens with empty letter input" time="0"/>
-  <testcase name="Scenario: Nothing happens with empty letter input" classname="Scenario: Nothing happens with empty letter input" time="0.069"/>
+  <testcase name="Scenario: Nothing happens with empty letter input" classname="Scenario: Nothing happens with empty letter input" time="0.071"/>
 </testsuite>
